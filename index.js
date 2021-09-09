@@ -10,6 +10,7 @@ const { combine, timestamp, label, printf } = winston.format;
 const myFormat = printf(({ level, message, label, timestamp }) => {
   return `${timestamp} [${label}] ${level} ${message}`;
 });
+
 global.logger = winston.createLogger({
   level: "silly",
   transports: [
@@ -19,7 +20,7 @@ global.logger = winston.createLogger({
   format: combine(label({ label: "store-api" }), timestamp(), myFormat),
 });
 
-const app = express();  
+const app = express();
 
 app.use(express.json());
 app.use(cors());
@@ -27,4 +28,8 @@ app.use("/client", clientsRouter);
 app.use("/product", productsRouter);
 app.use("/supplier", suppliersRouter);
 app.use("/sale", salesRouter);
+app.use((err, req, res, next) => {
+  logger.error(`${req.method} ${req.baseUrl} - ${err.message}`);
+  res.status(400).send({ error: err.message });
+});
 app.listen(3000, () => console.log("API Iniciada."));
