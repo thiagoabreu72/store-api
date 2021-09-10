@@ -8,3 +8,46 @@
 2021-09-09T20:37:54.636Z [store-api] error POST  - Name, CPF, Phone, Email e Address são obrigatórios!
 2021-09-09T20:37:54.828Z [store-api] error POST  - Name, CPF, Phone, Email e Address são obrigatórios!
 2021-09-09T20:37:55.077Z [store-api] error POST  - Name, CPF, Phone, Email e Address são obrigatórios!
+2021-09-10T15:03:51.340Z [store-api] error POST  - Name, CPF, Phone, Email e Address são obrigatórios!
+2021-09-10T15:05:54.909Z [store-api] info POST /client - {"name":"Thiago","cpf":"06336887979","phone":"44999890960","email":"thiagoabreu72@gmail.com","address":"Rua Treze de Maio, 71"}
+2021-09-10T15:08:38.678Z [store-api] info POST /client - {"name":"Thiago","cpf":"06336887979","phone":"44999890960","email":"thiagoabreu72@gmail.com","address":"Rua Treze de Maio, 71"}
+2021-09-10T15:16:16.984Z [store-api] info POST /client - {"name":"Thiago","cpf":"06336887979","phone":"44999890960","email":"thiagoabreu72@gmail.com","address":"Rua Treze de Maio, 71"}
+2021-09-10T15:16:24.230Z [store-api] info POST /client - {"name":"Thiago","cpf":"06336887979","phone":"44999890960","email":"thiagoabreu72@gmail.com","address":"Rua Treze de Maio, 71"}
+2021-09-10T15:19:32.778Z [store-api] info POST /client - {"name":"Aline","cpf":"12345678901","phone":"44999890960","email":"aline@gmail.com","address":"Rua Treze de Maio, 71"}
+2021-09-10T15:44:48.539Z [store-api] error GET  - ClientService.getClients is not a function
+2021-09-10T15:45:47.238Z [store-api] error GET  - ClientRepository.getClients is not a function
+2021-09-10T15:47:21.846Z [store-api] info GET /client
+2021-09-10T17:23:32.013Z [store-api] info GET /client
+2021-09-10T17:30:16.829Z [store-api] info GET /client
+2021-09-10T17:30:23.365Z [store-api] info DELETE /client
+2021-09-10T17:30:27.881Z [store-api] info GET /client
+2021-09-10T17:31:03.980Z [store-api] info DELETE /client
+2021-09-10T17:31:08.142Z [store-api] info GET /client
+2021-09-10T17:31:36.529Z [store-api] info GET /client
+2021-09-10T17:33:30.969Z [store-api] info GET /client/:id
+2021-09-10T17:33:35.288Z [store-api] info POST /client - {"name":"Aline","cpf":"12345678901","phone":"44999890960","email":"aline@gmail.com","address":"Rua Treze de Maio, 71"}
+2021-09-10T17:33:39.146Z [store-api] info GET /client
+2021-09-10T17:34:16.145Z [store-api] info GET /client/:id
+2021-09-10T17:34:35.664Z [store-api] info GET /client/:id
+2021-09-10T17:34:53.421Z [store-api] info GET /client/:id
+2021-09-10T17:35:10.592Z [store-api] info GET /client/:id
+2021-09-10T17:37:22.518Z [store-api] info GET /client/:id
+2021-09-10T17:37:54.881Z [store-api] info GET /client/:id
+2021-09-10T17:39:34.420Z [store-api] info GET /client/:id
+2021-09-10T17:39:47.397Z [store-api] info GET /client/:id
+2021-09-10T17:40:14.330Z [store-api] info GET /client/:id
+2021-09-10T17:40:18.214Z [store-api] info GET /client/:id
+2021-09-10T17:40:44.745Z [store-api] info GET /client/:id
+2021-09-10T17:41:06.777Z [store-api] info GET /client/:id
+2021-09-10T17:41:22.313Z [store-api] info GET /client/:id
+2021-09-10T17:41:42.275Z [store-api] info GET /client/:id
+2021-09-10T17:42:03.498Z [store-api] info GET /client/:id
+2021-09-10T17:42:32.310Z [store-api] info GET /client/:id
+2021-09-10T17:43:44.424Z [store-api] info GET /client/:id
+2021-09-10T17:43:56.014Z [store-api] info GET /client/:id
+2021-09-10T17:44:37.514Z [store-api] info GET /client/:id
+2021-09-10T17:45:19.106Z [store-api] info GET /client/:id
+2021-09-10T17:46:00.227Z [store-api] info GET /client/:id
+2021-09-10T17:46:03.604Z [store-api] info GET /client/:id
+2021-09-10T17:46:23.778Z [store-api] info DELETE /client
+2021-09-10T17:46:28.419Z [store-api] info GET /client
