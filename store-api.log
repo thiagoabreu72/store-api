@@ -97,3 +97,11 @@
 2021-09-15T17:02:47.438Z [store-api] info GET /supplier
 2021-09-15T17:02:55.406Z [store-api] info DELETE /supplier
 2021-09-15T17:02:58.350Z [store-api] info GET /supplier
+2021-09-15T20:48:42.076Z [store-api] info GET /client
+2021-09-15T20:53:39.445Z [store-api] info GET /product
+2021-09-15T20:54:12.393Z [store-api] info GET /supplier
+2021-09-15T20:54:24.172Z [store-api] info GET /product
+2021-09-15T21:04:30.030Z [store-api] info GET /client
+2021-09-15T21:04:34.556Z [store-api] info GET /client/:id
+2021-09-15T21:04:39.361Z [store-api] info GET /client/:id
+2021-09-15T21:04:47.517Z [store-api] info GET /client/:id
