@@ -35,8 +35,10 @@ async function getClients() {
 
 async function getClient(id) {
   const conn = await connect();
-  try {   
-    const res = await conn.query( "SELECT * FROM clients WHERE client_id = $1", [id]);
+  try {
+    const res = await conn.query("SELECT * FROM clients WHERE client_id = $1", [
+      id,
+    ]);
     return res.rows;
   } catch (error) {
   } finally {
@@ -54,9 +56,21 @@ async function deleteClient(id) {
   }
 }
 
-async function updateClient() {
+async function updateClient(client) {
   const conn = await connect();
   try {
+    const sql =
+      "UPDATE clients SET name = $1, cpf = $2, phone = $3, email = $4, address = $5 where client_id = $6 RETURNING *";
+    const values = [
+      client.name,
+      client.cpf,
+      client.phone,
+      client.email,
+      client.address,
+      client.client_id,
+    ];
+    const res = await conn.query(sql, values);
+    return res.rows[0];
   } catch (error) {
   } finally {
     conn.release();

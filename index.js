@@ -3,7 +3,7 @@ import cors from "cors";
 import winston from "winston";
 import clientsRouter from "./routes/client.route.js";
 import productsRouter from "./routes/client.route.js";
-import suppliersRouter from "./routes/client.route.js";
+import suppliersRouter from "./routes/supplier.route.js";
 import salesRouter from "./routes/client.route.js";
 
 const { combine, timestamp, label, printf } = winston.format;

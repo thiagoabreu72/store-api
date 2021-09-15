@@ -51,3 +51,49 @@
 2021-09-10T17:46:03.604Z [store-api] info GET /client/:id
 2021-09-10T17:46:23.778Z [store-api] info DELETE /client
 2021-09-10T17:46:28.419Z [store-api] info GET /client
+2021-09-15T15:05:56.337Z [store-api] info GET /client
+2021-09-15T15:06:01.218Z [store-api] info GET /client/:id
+2021-09-15T15:07:23.992Z [store-api] info GET /client
+2021-09-15T15:07:30.016Z [store-api] info DELETE /client
+2021-09-15T15:07:34.176Z [store-api] info GET /client
+2021-09-15T16:23:43.807Z [store-api] info POST /client - undefined
+2021-09-15T16:23:50.210Z [store-api] info GET /client
+2021-09-15T16:24:28.742Z [store-api] info POST /client - {"client_id":7,"name":"Aline","cpf":"12345678901","phone":"44999890960","email":"aline@gmail.com","address":"Rua Treze de Maio, 71"}
+2021-09-15T16:24:55.716Z [store-api] info PUT /client - {"client_id":7,"name":"Aline Nova","cpf":"12345678901","phone":"44999890960","email":"aline@gmail.com","address":"Rua Treze de Maio, 71"}
+2021-09-15T16:25:05.437Z [store-api] info GET /client
+2021-09-15T16:51:21.641Z [store-api] info DELETE /client
+2021-09-15T16:51:30.845Z [store-api] info GET /client
+2021-09-15T16:51:45.150Z [store-api] info GET /client
+2021-09-15T16:52:36.375Z [store-api] info GET /client
+2021-09-15T16:53:09.214Z [store-api] info GET /client
+2021-09-15T16:53:30.252Z [store-api] info GET /client
+2021-09-15T16:53:56.410Z [store-api] info GET /client/:id
+2021-09-15T16:55:05.889Z [store-api] info GET /supplier
+2021-09-15T16:55:23.272Z [store-api] info POST /supplier - {"suppliers_id":1,"name":"Aline LTDA","cnpj":"12345678901","phone":"44999890960","email":"aline@gmail.com","address":"Rua Treze de Maio, 71"}
+2021-09-15T16:55:29.464Z [store-api] info GET /supplier
+2021-09-15T16:55:38.570Z [store-api] info POST /supplier - {"suppliers_id":2,"name":"Thiago LTDA","cnpj":"12345678901","phone":"44999890960","email":"aline@gmail.com","address":"Rua Treze de Maio, 71"}
+2021-09-15T16:55:41.570Z [store-api] info GET /supplier
+2021-09-15T16:55:48.159Z [store-api] info POST /supplier - {"suppliers_id":3,"name":"Beatriz LTDA","cnpj":"12345678901","phone":"44999890960","email":"aline@gmail.com","address":"Rua Treze de Maio, 71"}
+2021-09-15T16:55:51.601Z [store-api] info GET /supplier
+2021-09-15T16:55:56.843Z [store-api] info GET /supplier/:id
+2021-09-15T16:56:03.333Z [store-api] info GET /supplier
+2021-09-15T16:56:35.104Z [store-api] info GET /supplier/:id
+2021-09-15T16:56:55.873Z [store-api] info GET /supplier
+2021-09-15T16:57:00.156Z [store-api] info GET /supplier/:id
+2021-09-15T16:57:11.496Z [store-api] error PUT  - Name, CNPJ, Phone, Email e Address são obrigatórios!
+2021-09-15T16:57:19.830Z [store-api] error PUT  - Name, CNPJ, Phone, Email e Address são obrigatórios!
+2021-09-15T16:57:25.404Z [store-api] error PUT  - Name, CNPJ, Phone, Email e Address são obrigatórios!
+2021-09-15T16:57:39.270Z [store-api] info GET /supplier
+2021-09-15T16:57:45.344Z [store-api] error PUT  - Name, CNPJ, Phone, Email e Address são obrigatórios!
+2021-09-15T16:58:08.502Z [store-api] error PUT  - Name, CNPJ, Phone, Email e Address são obrigatórios!
+2021-09-15T16:59:26.321Z [store-api] info GET /supplier
+2021-09-15T16:59:29.067Z [store-api] error PUT  - Name, CNPJ, Phone, Email e Address são obrigatórios!
+2021-09-15T16:59:53.580Z [store-api] info GET /supplier
+2021-09-15T16:59:55.591Z [store-api] error PUT  - Name, CNPJ, Phone, Email e Address são obrigatórios!
+2021-09-15T17:01:44.947Z [store-api] error PUT  - Name, CNPJ, Phone, Email e Address são obrigatórios!
+2021-09-15T17:01:54.596Z [store-api] info GET /supplier
+2021-09-15T17:02:11.878Z [store-api] error PUT  - Name, CNPJ, Phone, Email e Address são obrigatórios!
+2021-09-15T17:02:40.786Z [store-api] info PUT /supplier - {"suppliers_id":2,"name":"Thiago Novo LTDA","cnpj":"12345678901","phone":"44999890960","email":"aline@gmail.com","address":"Rua Treze de Maio, 71"}
+2021-09-15T17:02:47.438Z [store-api] info GET /supplier
+2021-09-15T17:02:55.406Z [store-api] info DELETE /supplier
+2021-09-15T17:02:58.350Z [store-api] info GET /supplier
